@@ -28,17 +28,10 @@ railsapp-passenger-apache -> passenger-apache -> apache
 
 ## Types
 
-### Application
+### Resource
 
-+ railsapp-passenger-apache
+Single server resource or configuration. These scripts can be run independently or within a resource stack.
 
-### Server Stack
+### Resource Stack
 
-+ passenger-apache
-+ php-apache
-
-### Server Resource
-
-+ apache
-+ mysql
-+ ruby
+Collection of resources that defines a complet stack.
