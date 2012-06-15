@@ -1,6 +1,6 @@
 # Require
 bash apache.sh
-bash mysql.sh
+bash mysql-client.sh
 
 # Install php5 and modules
 apt-get install --yes php5 php5-mysql libapache2-mod-php5
