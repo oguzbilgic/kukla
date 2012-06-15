@@ -1,6 +1,6 @@
 # Require
-bash apache.sh
-bash ruby.sh
+bash resource/apache.sh
+bash resource/ruby.sh
 
 # Install passenger and enable passenger-apache module
 apt-get install -y build-essential libcurl4-openssl-dev libssl-dev zlib1g-dev apache2-prefork-dev libapr1-dev libaprutil1-dev
