@@ -7,7 +7,7 @@ very minimalist server provisioning tool
 You can use the script below to download the project into your freshly created server's `/tmp` folder.
 
 ```shell
-wget https://gist.github.com/gists/1f83d225e7ee32bd7bab/download -O bashhet.tar.gz
+wget https://github.com/oguzbilgic/basshet/tarball/master -O basshet.tar.gz
 tar -xvf bashhet.tar.gz
 cd gis*
 ```
