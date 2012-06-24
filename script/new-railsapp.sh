@@ -1,6 +1,3 @@
-# Require
-bash passenger-apache.sh
-
 # Install rails
 gem install rails --no-ri --no-rdoc
 
