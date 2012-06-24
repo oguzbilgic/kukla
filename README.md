@@ -35,3 +35,7 @@ Single server resource or configuration. These scripts can be run independently 
 ### Resource Stack
 
 Collection of resources that defines a complet stack.
+
+## Platform
+
+basshet scripts are currently developed and tested on *Ubuntu 12.04*
