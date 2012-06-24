@@ -23,7 +23,7 @@ cat << EOF > /etc/apache2/sites-available/default
 
     LogLevel warn
     ErrorLog /var/log/apache2/error.log
-    CustomLog /var/log/apache2/access.log combined
+    CustomLog /var/log/apache2/access.log vhost_combined
 </VirtualHost>
 EOF
 service apache2 reload
