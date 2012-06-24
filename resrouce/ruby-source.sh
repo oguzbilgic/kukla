@@ -1,5 +1,5 @@
 # Compile and Install ruby from source
-apt-get -y install build-essential
+apt-get -y install build-essential zlib1g-dev libssl-dev libyaml-dev
 
 # Download ruby
 cd /tmp
