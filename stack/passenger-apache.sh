@@ -1,5 +1,6 @@
 # Require
 bash resource/apache.sh
+bash resource/mysql-client.sh
 bash resource/ruby.sh
 
 # Install passenger and enable passenger-apache module
