@@ -2,6 +2,20 @@
 
 very minimalist server provisioning tool
 
+## Concept
+
+### Resource
+
+Single server resource or configuration. These scripts can be run independently or within a resource stack.
+
+### Stack
+
+Collection of resources that defines a complete stack.
+
+### Script
+
+Scripts that are designed to run on their specified stacks.
+
 ## Usage
 
 You can use the script below to download the project into your freshly created server's `/tmp` folder.
@@ -12,30 +26,12 @@ tar -xvf bashhet.tar.gz
 cd gis*
 ```
 
-Then run the script that you want to install
+Then run the resource/stack/script that you want to use:
 
 ```shell
-bash railsapp-passenger-apache.sh
+bash stack/passenger-apache.sh
 ```
-
-## Concept 
-
-Every script/file sets up one layer of the server stack. We use file names to keep track of the dependencies. For example;
-
-```
-railsapp-passenger-apache -> passenger-apache -> apache
-```
-
-## Types
-
-### Resource
-
-Single server resource or configuration. These scripts can be run independently or within a resource stack.
-
-### Resource Stack
-
-Collection of resources that defines a complet stack.
 
 ## Platform
 
-basshet scripts are currently developed and tested on *Ubuntu 12.04*
+basshet is currently developed for and tested on *Ubuntu 12.04*
