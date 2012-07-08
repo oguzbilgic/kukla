@@ -1,6 +1,6 @@
-# bashhet
+# kukla
 
-very minimalist server provisioning tool
+very minimalist server managment tool
 
 ## Concept
 
@@ -21,8 +21,8 @@ Scripts that are designed to run on their specified stacks.
 You can use the script below to download the project into your freshly created server's `/tmp` folder.
 
 ```shell
-wget https://github.com/oguzbilgic/basshet/tarball/master -O basshet.tar.gz
-tar -xvf bashhet.tar.gz
+wget https://github.com/oguzbilgic/kukla/tarball/master -O kukla.tar.gz
+tar -xvf kukla.tar.gz
 cd gis*
 ```
 
