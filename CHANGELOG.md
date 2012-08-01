@@ -1,4 +1,6 @@
-## v0.2.dev
+## head
+
+## v0.2
 
 * Change folder structure (resource, stack, script)
 * Add `php` resource

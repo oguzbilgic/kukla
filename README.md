@@ -34,4 +34,4 @@ bash stack/passenger-apache.sh
 
 ## Platform
 
-basshet is currently developed for and tested on *Ubuntu 12.04*
+kukla is currently developed for and tested on *Ubuntu 12.04*
