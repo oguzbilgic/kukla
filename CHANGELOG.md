@@ -1,5 +1,9 @@
 ## head
 
+* Add `vim` resource
+* Add `vim` and `git` resources to `passenger-apache` stack
+* Add `vim` and `git` resources to `php-apache` stack
+
 ## v0.2
 
 * Change folder structure (resource, stack, script)
