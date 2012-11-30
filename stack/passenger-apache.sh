@@ -1,4 +1,5 @@
 # Require
+bash resource/bashrc.sh
 bash resource/apache.sh
 bash resource/mysql-client.sh
 bash resource/ruby.sh

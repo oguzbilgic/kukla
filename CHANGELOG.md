@@ -1,5 +1,7 @@
 ## head
 
+* Add `bashrc` resource
+* Add `bashrc` resource to `passenger-apache`and `php-apache` stacks
 * Add `vim` resource
 * Add `vim` and `git` resources to `passenger-apache` stack
 * Add `vim` and `git` resources to `php-apache` stack
